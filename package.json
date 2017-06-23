@@ -1,6 +1,6 @@
 {
   "name": "ionic2-date-picker",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "prepublish": "npm run build",
     "tsc": "tsc ",
     "static":"cpx src/**/*.{html,json} ./",
-    "build": "npm run tsc && npm run static"
+    "build": "npm run tsc"
   },
   "dependencies": {
     "@angular/common": "2.0.0",
@@ -33,6 +33,6 @@
     "typescript": "^2.0.3"
   },
   "typings": "./ionic2-date-picker.d.ts",
-  "author": "lim shang yi",
+  "author": "lim shang yi & marc zwart",
   "license": "ISC"
 }
