@@ -132,7 +132,7 @@ export class DatePicker {
 
     day.isSelected = true;
     this.selectedDateItem = day;
-
+    this.currentMoment = day.momentDate;
   }
 
   private setTodayAsDefaultSelectedDate() {
